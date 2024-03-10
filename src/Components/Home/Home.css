@@ -1,0 +1,133 @@
+/* Home.css */
+* {
+  transition: all 500ms;
+  box-shadow: 0 0 0 1px red;
+}
+/* body {
+  background-color: #f0f4ff;
+} */
+.hero {
+  height: 200vh;
+  width: 100vw;
+  padding-bottom: 10vh;
+  background: right top / 60rem no-repeat #f0f4ff url("../../media/bg.png");
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  height: 100%;
+  flex-direction: column;
+  text-align: start;
+  gap: 3rem;
+}
+
+.header > * {
+  width: fit-content;
+  margin: 0 10vw;
+}
+.header > p {
+  font-size: 1.5rem;
+  width: 30%;
+  text-shadow: 0px 0px 3px #f0f4ff;
+}
+.title-content {
+  color: #ff7300;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 6vw;
+  text-shadow: 2px 2px 4px #00000066; /* Text shadow */
+}
+
+.subtitle {
+  font-size: 3vw;
+  text-shadow: 2px 2px 4px #00000066; /* Text shadow */
+}
+
+.sidebar {
+  position: sticky;
+  top: 10rem;
+  display: flex;
+  width: 25rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #5054ff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000066; /* Box shadow */
+}
+.sidebar:hover {
+  scale: 1.05;
+}
+.event-box {
+  width: 100%;
+  padding: 20px;
+  background-color: #7074ff;
+  border-radius: 0 10px 10px 0;
+  border-left: 2px solid #f0f4ff;
+}
+.event-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.event-info p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fff; /* Medium gray */
+}
+.event-info p strong {
+  color: #eee;
+}
+.call-to-action {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: #e4e8ff;
+  color: #6064ff;
+  box-shadow: 0 0 4px #00000066; /* Box shadow */
+  margin: 1rem;
+}
+.call-to-action:hover {
+  color: #4044ff;
+  background-color: #fff;
+}
+
+.hot-links {
+  height: 100px;
+  width: 45vw;
+  position: relative;
+  left: 35vw;
+}
+.hot-links .rules {
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.hot-links .rules span {
+  font-size: 2rem;
+}
+.hot-links .rules li,
+.hot-links .rules a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.hackathon {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid blue;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+}
