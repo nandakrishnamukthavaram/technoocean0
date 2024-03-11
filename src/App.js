@@ -1,6 +1,6 @@
 import Header from "./Components/Header/Header.jsx";
 import Home from "./Components/Home/Home.jsx";
-import Prices from "./Components/Prices/Prices.jsx";
+import Prizes from "./Components/Prizes/Prizes.jsx";
 import Schedule from "./Components/Schedule/Schedule.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
