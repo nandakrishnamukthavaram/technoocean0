@@ -60,7 +60,10 @@ nav .midlinks a:hover::after {
   transition: all 200ms;
 }
 nav .midlinks a:active{
-  color:#d0d4ff;
+  color:#4044ff;
+}
+nav .midlinks a.active{
+  color:#4044ff;
 }
 nav .midlinks a.active::after {
   content: "";
