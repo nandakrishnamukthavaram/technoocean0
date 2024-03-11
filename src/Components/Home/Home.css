@@ -1,13 +1,13 @@
 /* Home.css */
 * {
-  transition: all 500ms;
+  transition: all 200ms;
   box-shadow: 0 0 0 1px red;
 }
 /* body {
   background-color: #f0f4ff;
 } */
 .hero {
-  height: 200vh;
+  height: 190vh;
   width: 100vw;
   padding-bottom: 10vh;
   background: right top / 60rem no-repeat #f0f4ff url("../../media/bg.png");
@@ -19,7 +19,7 @@
 }
 
 .header {
-  width: 100%;
+  width: max-content;
   display: flex;
   align-items: left;
   justify-content: flex-start;
@@ -67,6 +67,7 @@
 }
 .sidebar:hover {
   scale: 1.05;
+  box-shadow: 6px 6px 4px #0006;
 }
 .event-box {
   width: 100%;
@@ -126,8 +127,53 @@
   margin: 2rem 0;
   padding: 1rem;
   border-radius: 10px;
-  border: 1px solid blue;
+  border: 3px solid #4044ff;
   box-shadow: none;
   display: flex;
   flex-direction: column;
+  background-color: #e0e4ff;
+}
+
+.hackathon:hover {
+  border-color: #f68222;
+}
+.hackathon .hackathon-title {
+  font-size: 2.5rem;
+  color: #4044ff;
+  text-shadow: 1px 1px 1px #f68222;
+}
+.hackathon:hover .hackathon-title {
+  color: #f68222;
+  text-shadow: 0 0 0 #000;
+}
+.hackathon .hackathon-theme {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #707477;
+}
+.hackathon .hackathon-registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hackathon .hackathon-registration .description {
+  font-weight: 500;
+  font-size: 0.8rem;
+  width: 20rem;
+  margin: 1rem 0;
+}
+.hackathon .hackathon-registration button {
+  padding: 1rem;
+  width: 10rem;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #4044ff;
+  color: #f0f4ff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 4px 0 #0008;
+}
+.hackathon .hackathon-registration button:hover {
+  background-color: #f0f4ff;
+  color: #4044ff;
 }

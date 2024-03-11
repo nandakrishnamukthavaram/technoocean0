@@ -8,19 +8,22 @@ const Home = () => {
     {
       name: "Hackathon1",
       theme: "Theme1",
-      description: "Lorem1 epsum1 dolor1 sit1 amut1 abrev1",
+      description:
+        "Lorem1 epsum1 dolor1 sit1 amut1 abrev1 Lorem t vero cupiditate tempora repudiandae? Cum, labore aliquid? ",
     },
-    // ,
-    // {
-    //   name: "Hackathon2",
-    //   theme: "Theme2",
-    //   description: "Lorem2 epsum2 dolor2 sit2 amut2 abrev3",
-    // },
-    // {
-    //   name: "Hackathon3",
-    //   theme: "Theme3",
-    //   description: "Lorem3 epsum3 dolor3 sit3 amut3 abrev3",
-    // },
+    ,
+    {
+      name: "Hackathon2",
+      theme: "Theme2",
+      description:
+        "Lorem2 epsum2 dolor2 sit2 amut2 abrev3 Lorem t vero cupiditate tempora repudiandae? Cum, labore aliquid?",
+    },
+    {
+      name: "Hackathon3",
+      theme: "Theme3",
+      description:
+        "Lorem3 epsum3 dolor3 sit3 amut3 abrev3 Lorem t vero cupiditate tempora repudiandae? Cum, labore aliquid?",
+    },
   ];
   return (
     <>
@@ -69,7 +72,10 @@ const Home = () => {
               <div className="hackathon">
                 <div className="hackathon-title">{hackathon.name}</div>
                 <div className="hackathon-theme">{hackathon.theme}</div>
-                <div className="hackathon-registration"></div>
+                <div className="hackathon-registration">
+                  <div className="description">{hackathon.description}</div>
+                  <button>Apply now</button>
+                </div>
               </div>
             ))}
           </div>
