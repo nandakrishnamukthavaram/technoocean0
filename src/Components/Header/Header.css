@@ -67,7 +67,7 @@ nav .midlinks a.active::after {
   width: 100%;
   height: 2px;
   display: block;
-  color: #d0d4ff;
+  color: #4044ff;
   background-color: #4044ff;
   transition: all 200ms;
 }
